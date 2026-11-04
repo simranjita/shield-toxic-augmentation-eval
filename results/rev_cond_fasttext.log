@@ -1,0 +1,24 @@
+Job started: Sat Oct 17 02:38:10 IST 2026
+[02:38:14] === fasttext original: train rows 135,635 ===
+[02:39:49]   seed 42: macro_f1=0.6217 | main-grid 0.6162 (diff +0.00548)
+[02:41:03]   seed 123: macro_f1=0.6186
+[02:42:34]   seed 456: macro_f1=0.6219
+[02:44:09]   seed 789: macro_f1=0.6162
+[02:45:41]   seed 1011: macro_f1=0.6132
+[02:45:41] SUMMARY fasttext original: mean=0.6184 std=0.0033 ['0.6217', '0.6186', '0.6219', '0.6162', '0.6132']
+[02:45:41] === fasttext undersampled: train rows 74,712 ===
+[02:46:28]   seed 42: macro_f1=0.6133 | main-grid 0.6035 (diff +0.00980)
+[02:47:17]   seed 123: macro_f1=0.6144
+[02:47:57]   seed 456: macro_f1=0.6075
+[02:48:51]   seed 789: macro_f1=0.6151
+[02:49:44]   seed 1011: macro_f1=0.6169
+[02:49:44] SUMMARY fasttext undersampled: mean=0.6134 std=0.0032 ['0.6133', '0.6144', '0.6075', '0.6151', '0.6169']
+[02:49:45] MLSMOTE: +27,580 synthetic positives -> 82,740 total (41,370 positive / 41,370 negative)
+[02:49:46] === fasttext smote: train rows 82,740 ===
+[02:50:29]   seed 42: macro_f1=0.6319 | main-grid 0.6230 (diff +0.00893)
+[02:50:55]   seed 123: macro_f1=0.6300
+[02:51:32]   seed 456: macro_f1=0.6192
+[02:51:58]   seed 789: macro_f1=0.6193
+[02:52:47]   seed 1011: macro_f1=0.6218
+[02:52:47] SUMMARY fasttext smote: mean=0.6245 std=0.0054 ['0.6319', '0.6300', '0.6192', '0.6193', '0.6218']
+Job finished: Sat Oct 17 02:52:48 IST 2026

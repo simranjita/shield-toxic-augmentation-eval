@@ -1,0 +1,150 @@
+{
+ "severe_toxic": [
+  {
+   "seed": 42,
+   "n_test": 152,
+   "n_test_syn": 35,
+   "auc_length": 0.53015873015873,
+   "auc_text": 0.9963369963369964
+  },
+  {
+   "seed": 123,
+   "n_test": 168,
+   "n_test_syn": 31,
+   "auc_length": 0.5555686366847186,
+   "auc_text": 0.9823404756298564
+  },
+  {
+   "seed": 456,
+   "n_test": 148,
+   "n_test_syn": 37,
+   "auc_length": 0.538227416605795,
+   "auc_text": 0.9914779644509375
+  },
+  {
+   "seed": 789,
+   "n_test": 142,
+   "n_test_syn": 30,
+   "auc_length": 0.6444940476190475,
+   "auc_text": 0.9985119047619048
+  },
+  {
+   "seed": 1011,
+   "n_test": 144,
+   "n_test_syn": 37,
+   "auc_length": 0.545466026774438,
+   "auc_text": 0.9946956302096489
+  }
+ ],
+ "threat": [
+  {
+   "seed": 42,
+   "n_test": 76,
+   "n_test_syn": 39,
+   "auc_length": 0.6056826056826057,
+   "auc_text": 0.995841995841996
+  },
+  {
+   "seed": 123,
+   "n_test": 87,
+   "n_test_syn": 35,
+   "auc_length": 0.5678571428571428,
+   "auc_text": 0.9967032967032967
+  },
+  {
+   "seed": 456,
+   "n_test": 68,
+   "n_test_syn": 37,
+   "auc_length": 0.6604184829991282,
+   "auc_text": 0.9895379250217959
+  },
+  {
+   "seed": 789,
+   "n_test": 69,
+   "n_test_syn": 36,
+   "auc_length": 0.6304713804713805,
+   "auc_text": 1.0
+  },
+  {
+   "seed": 1011,
+   "n_test": 71,
+   "n_test_syn": 32,
+   "auc_length": 0.8032852564102565,
+   "auc_text": 0.9967948717948718
+  }
+ ],
+ "insult": [
+  {
+   "seed": 42,
+   "n_test": 633,
+   "n_test_syn": 39,
+   "auc_length": 0.7200638867305533,
+   "auc_text": 0.9984459984459985
+  },
+  {
+   "seed": 123,
+   "n_test": 661,
+   "n_test_syn": 40,
+   "auc_length": 0.6865942028985508,
+   "auc_text": 0.9890096618357488
+  },
+  {
+   "seed": 456,
+   "n_test": 633,
+   "n_test_syn": 42,
+   "auc_length": 0.7136008379663202,
+   "auc_text": 0.9974216420916928
+  },
+  {
+   "seed": 789,
+   "n_test": 625,
+   "n_test_syn": 30,
+   "auc_length": 0.6815966386554622,
+   "auc_text": 0.9877310924369749
+  },
+  {
+   "seed": 1011,
+   "n_test": 664,
+   "n_test_syn": 51,
+   "auc_length": 0.7183091833797141,
+   "auc_text": 0.9892524709720757
+  }
+ ],
+ "identity_hate": [
+  {
+   "seed": 42,
+   "n_test": 134,
+   "n_test_syn": 37,
+   "auc_length": 0.7130119810532183,
+   "auc_text": 0.9933129005293954
+  },
+  {
+   "seed": 123,
+   "n_test": 157,
+   "n_test_syn": 36,
+   "auc_length": 0.6567952249770431,
+   "auc_text": 0.990358126721763
+  },
+  {
+   "seed": 456,
+   "n_test": 146,
+   "n_test_syn": 40,
+   "auc_length": 0.6647405660377359,
+   "auc_text": 0.9839622641509435
+  },
+  {
+   "seed": 789,
+   "n_test": 133,
+   "n_test_syn": 42,
+   "auc_length": 0.6886446886446886,
+   "auc_text": 0.9761904761904762
+  },
+  {
+   "seed": 1011,
+   "n_test": 149,
+   "n_test_syn": 43,
+   "auc_length": 0.7548266783677051,
+   "auc_text": 0.9697235629662133
+  }
+ ]
+}

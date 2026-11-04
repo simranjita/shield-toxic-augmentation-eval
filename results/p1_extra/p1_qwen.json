@@ -1,0 +1,239 @@
+{
+  "cache_file": "qwen_augmented_cached.npz",
+  "pool_rows": 161494,
+  "synthetic_rows": 1923,
+  "seeds": {
+    "789": {
+      "test_synthetic_share_of_positives": {
+        "toxic": {
+          "synthetic": 134,
+          "total": 1294
+        },
+        "severe_toxic": {
+          "synthetic": 30,
+          "total": 145
+        },
+        "obscene": {
+          "synthetic": 0,
+          "total": 648
+        },
+        "threat": {
+          "synthetic": 36,
+          "total": 82
+        },
+        "insult": {
+          "synthetic": 30,
+          "total": 624
+        },
+        "identity_hate": {
+          "synthetic": 42,
+          "total": 167
+        }
+      },
+      "test_rows": 12113,
+      "test_synthetic_rows": 134,
+      "pooled_augmented": {
+        "train_rows": 137269,
+        "full_pooled_test": {
+          "macro_f1": 0.685617259805989,
+          "per_class": {
+            "toxic": 0.7966440271673991,
+            "severe_toxic": 0.5313432835820896,
+            "obscene": 0.7725856697819314,
+            "threat": 0.6802721088435374,
+            "insult": 0.7154088050314465,
+            "identity_hate": 0.6174496644295302
+          },
+          "n": 12113,
+          "positives": {
+            "toxic": 1294,
+            "severe_toxic": 145,
+            "obscene": 648,
+            "threat": 82,
+            "insult": 624,
+            "identity_hate": 167
+          }
+        },
+        "real_only_test": {
+          "macro_f1": 0.601371507422522,
+          "per_class": {
+            "toxic": 0.7744528807503349,
+            "severe_toxic": 0.4411764705882353,
+            "obscene": 0.7786499215070644,
+            "threat": 0.4,
+            "insult": 0.7116666666666667,
+            "identity_hate": 0.502283105022831
+          },
+          "n": 11979,
+          "positives": {
+            "toxic": 1160,
+            "severe_toxic": 115,
+            "obscene": 648,
+            "threat": 46,
+            "insult": 594,
+            "identity_hate": 125
+          }
+        }
+      },
+      "pooled_original": {
+        "train_rows": 135637,
+        "full_pooled_test": {
+          "macro_f1": 0.6491284948826886,
+          "per_class": {
+            "toxic": 0.7959814528593508,
+            "severe_toxic": 0.4624624624624625,
+            "obscene": 0.7488514548238897,
+            "threat": 0.6289308176100629,
+            "insult": 0.6980728051391863,
+            "identity_hate": 0.56047197640118
+          },
+          "n": 12113,
+          "positives": {
+            "toxic": 1294,
+            "severe_toxic": 145,
+            "obscene": 648,
+            "threat": 82,
+            "insult": 624,
+            "identity_hate": 167
+          }
+        },
+        "real_only_test": {
+          "macro_f1": 0.6223905955296718,
+          "per_class": {
+            "toxic": 0.7776824034334764,
+            "severe_toxic": 0.4264705882352941,
+            "obscene": 0.7861736334405145,
+            "threat": 0.525,
+            "insult": 0.7208756841282252,
+            "identity_hate": 0.49814126394052044
+          },
+          "n": 11979,
+          "positives": {
+            "toxic": 1160,
+            "severe_toxic": 115,
+            "obscene": 648,
+            "threat": 46,
+            "insult": 594,
+            "identity_hate": 125
+          }
+        }
+      }
+    },
+    "1011": {
+      "test_synthetic_share_of_positives": {
+        "toxic": {
+          "synthetic": 156,
+          "total": 1296
+        },
+        "severe_toxic": {
+          "synthetic": 37,
+          "total": 164
+        },
+        "obscene": {
+          "synthetic": 0,
+          "total": 645
+        },
+        "threat": {
+          "synthetic": 32,
+          "total": 72
+        },
+        "insult": {
+          "synthetic": 51,
+          "total": 649
+        },
+        "identity_hate": {
+          "synthetic": 43,
+          "total": 137
+        }
+      },
+      "test_rows": 12113,
+      "test_synthetic_rows": 156,
+      "pooled_augmented": {
+        "train_rows": 137269,
+        "full_pooled_test": {
+          "macro_f1": 0.6794529447614162,
+          "per_class": {
+            "toxic": 0.7885496183206107,
+            "severe_toxic": 0.5728395061728395,
+            "obscene": 0.7569601203912716,
+            "threat": 0.639344262295082,
+            "insult": 0.7135819845179451,
+            "identity_hate": 0.6054421768707483
+          },
+          "n": 12113,
+          "positives": {
+            "toxic": 1296,
+            "severe_toxic": 164,
+            "obscene": 645,
+            "threat": 72,
+            "insult": 649,
+            "identity_hate": 137
+          }
+        },
+        "real_only_test": {
+          "macro_f1": 0.6037743051268215,
+          "per_class": {
+            "toxic": 0.7605023819835427,
+            "severe_toxic": 0.5030674846625767,
+            "obscene": 0.7685255920550038,
+            "threat": 0.4126984126984127,
+            "insult": 0.7061538461538461,
+            "identity_hate": 0.4716981132075472
+          },
+          "n": 11957,
+          "positives": {
+            "toxic": 1140,
+            "severe_toxic": 127,
+            "obscene": 645,
+            "threat": 40,
+            "insult": 598,
+            "identity_hate": 94
+          }
+        }
+      },
+      "pooled_original": {
+        "train_rows": 135621,
+        "full_pooled_test": {
+          "macro_f1": 0.6327791184741074,
+          "per_class": {
+            "toxic": 0.7744510978043913,
+            "severe_toxic": 0.5176470588235295,
+            "obscene": 0.7125271542360608,
+            "threat": 0.5081081081081081,
+            "insult": 0.6807666886979511,
+            "identity_hate": 0.6031746031746031
+          },
+          "n": 12113,
+          "positives": {
+            "toxic": 1296,
+            "severe_toxic": 164,
+            "obscene": 645,
+            "threat": 72,
+            "insult": 649,
+            "identity_hate": 137
+          }
+        },
+        "real_only_test": {
+          "macro_f1": 0.6078061203377303,
+          "per_class": {
+            "toxic": 0.7469332121762835,
+            "severe_toxic": 0.45454545454545453,
+            "obscene": 0.7633824670287044,
+            "threat": 0.48484848484848486,
+            "insult": 0.7035100821508589,
+            "identity_hate": 0.49361702127659574
+          },
+          "n": 11957,
+          "positives": {
+            "toxic": 1140,
+            "severe_toxic": 127,
+            "obscene": 645,
+            "threat": 40,
+            "insult": 598,
+            "identity_hate": 94
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+Job started: Sat Oct 17 02:30:46 IST 2026
+[02:32:39] seed 42 pooled_augmented: real-only macro pooled_thr 0.5986 real_thr 0.6061 | reference 0.5975 (diff +0.00113)
+[02:33:08] seed 42 pooled_original: real-only macro pooled_thr 0.6171 real_thr 0.6072 | reference 0.6262 (diff -0.00914)
+[02:33:49] seed 123 pooled_augmented: real-only macro pooled_thr 0.5471 real_thr 0.5876 | reference 0.5670 (diff -0.01988)
+[02:34:28] seed 123 pooled_original: real-only macro pooled_thr 0.5863 real_thr 0.5869 | reference 0.5968 (diff -0.01046)
+[02:35:05] seed 456 pooled_augmented: real-only macro pooled_thr 0.6122 real_thr 0.6055 | reference 0.6031 (diff +0.00905)
+[02:35:43] seed 456 pooled_original: real-only macro pooled_thr 0.6207 real_thr 0.6221 | reference 0.6106 (diff +0.01016)
+[02:36:20] seed 789 pooled_augmented: real-only macro pooled_thr 0.5879 real_thr 0.6097 | reference 0.6014 (diff -0.01352)
+[02:36:59] seed 789 pooled_original: real-only macro pooled_thr 0.6044 real_thr 0.6103 | reference 0.6224 (diff -0.01799)
+[02:37:35] seed 1011 pooled_augmented: real-only macro pooled_thr 0.6058 real_thr 0.6077 | reference 0.6038 (diff +0.00202)
+[02:38:10] seed 1011 pooled_original: real-only macro pooled_thr 0.6107 real_thr 0.6092 | reference 0.6078 (diff +0.00287)
+[02:38:10] saved results/p1b/p1b_qwen.json
+[02:38:56] seed 42 pooled_augmented: real-only macro pooled_thr 0.5788 real_thr 0.5881 | reference 0.5707 (diff +0.00803)
+[02:39:17] seed 42 pooled_original: real-only macro pooled_thr 0.5737 real_thr 0.5439 | reference 0.5662 (diff +0.00746)
+[02:39:57] seed 123 pooled_augmented: real-only macro pooled_thr 0.5541 real_thr 0.5578 | reference 0.5482 (diff +0.00586)
+[02:40:27] seed 123 pooled_original: real-only macro pooled_thr 0.5791 real_thr 0.5787 | reference 0.5537 (diff +0.02541)
+[02:41:06] seed 456 pooled_augmented: real-only macro pooled_thr 0.5945 real_thr 0.5859 | reference 0.5790 (diff +0.01549)
+[02:41:59] seed 456 pooled_original: real-only macro pooled_thr 0.5940 real_thr 0.5958 | reference 0.5903 (diff +0.00373)
+[02:42:50] seed 789 pooled_augmented: real-only macro pooled_thr 0.5782 real_thr 0.5934 | reference 0.6015 (diff -0.02333)
+[02:43:51] seed 789 pooled_original: real-only macro pooled_thr 0.5935 real_thr 0.6013 | reference 0.6093 (diff -0.01579)
+[02:44:28] seed 1011 pooled_augmented: real-only macro pooled_thr 0.5732 real_thr 0.5716 | reference 0.5694 (diff +0.00378)
+[02:45:07] seed 1011 pooled_original: real-only macro pooled_thr 0.5811 real_thr 0.5735 | reference 0.5642 (diff +0.01689)
+[02:45:07] saved results/p1b/p1b_fasttext.json
+Job finished: Sat Oct 17 02:45:08 IST 2026

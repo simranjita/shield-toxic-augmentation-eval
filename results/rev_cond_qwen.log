@@ -1,0 +1,24 @@
+Job started: Sat Oct 17 02:33:24 IST 2026
+[02:33:29] === qwen original: train rows 135,635 ===
+[02:34:03]   seed 42: macro_f1=0.6356 | main-grid 0.6346 (diff +0.00095)
+[02:34:33]   seed 123: macro_f1=0.6174
+[02:35:04]   seed 456: macro_f1=0.6306
+[02:35:35]   seed 789: macro_f1=0.6294
+[02:36:00]   seed 1011: macro_f1=0.6504
+[02:36:00] SUMMARY qwen original: mean=0.6327 std=0.0107 ['0.6356', '0.6174', '0.6306', '0.6294', '0.6504']
+[02:36:00] === qwen undersampled: train rows 74,712 ===
+[02:36:12]   seed 42: macro_f1=0.6351 | main-grid 0.6261 (diff +0.00897)
+[02:36:26]   seed 123: macro_f1=0.6319
+[02:36:38]   seed 456: macro_f1=0.6223
+[02:36:52]   seed 789: macro_f1=0.6400
+[02:37:08]   seed 1011: macro_f1=0.6417
+[02:37:08] SUMMARY qwen undersampled: mean=0.6342 std=0.0069 ['0.6351', '0.6319', '0.6223', '0.6400', '0.6417']
+[02:37:11] MLSMOTE: +27,580 synthetic positives -> 82,740 total (41,370 positive / 41,370 negative)
+[02:37:11] === qwen smote: train rows 82,740 ===
+[02:37:21]   seed 42: macro_f1=0.6326 | main-grid 0.6430 (diff -0.01035)
+[02:37:31]   seed 123: macro_f1=0.6320
+[02:37:45]   seed 456: macro_f1=0.6335
+[02:37:54]   seed 789: macro_f1=0.6287
+[02:38:06]   seed 1011: macro_f1=0.6396
+[02:38:06] SUMMARY qwen smote: mean=0.6333 std=0.0036 ['0.6326', '0.6320', '0.6335', '0.6287', '0.6396']
+Job finished: Sat Oct 17 02:38:07 IST 2026

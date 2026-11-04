@@ -1,0 +1,4 @@
+fasttext MLP original vs augmented   [macro_f1] original=0.6162  augmented=0.5869  diff=-0.0294  95%CI=[-0.0565,-0.0030]  p~=0.0298  **
+fasttext MLP naive_duplicate vs augmented   [macro_f1] naive_duplicate=0.6149  augmented=0.5869  diff=-0.0280  95%CI=[-0.0520,-0.0048]  p~=0.0184  **
+fasttext MLP smote vs augmented   [macro_f1] smote=0.6230  augmented=0.5869  diff=-0.0361  95%CI=[-0.0617,-0.0116]  p~=0.0046  ***
+fasttext MLP undersampled vs augmented   [macro_f1] undersampled=0.6035  augmented=0.5869  diff=-0.0166  95%CI=[-0.0391,+0.0059]  p~=0.1430  ns

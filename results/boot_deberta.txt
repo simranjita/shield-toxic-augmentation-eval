@@ -1,0 +1,4 @@
+deberta MLP original vs augmented   [macro_f1] original=0.5977  augmented=0.5819  diff=-0.0157  95%CI=[-0.0397,+0.0071]  p~=0.1826  ns
+deberta MLP naive_duplicate vs augmented   [macro_f1] naive_duplicate=0.5739  augmented=0.5819  diff=+0.0080  95%CI=[-0.0153,+0.0309]  p~=0.5012  ns
+deberta MLP smote vs augmented   [macro_f1] smote=0.5834  augmented=0.5819  diff=-0.0015  95%CI=[-0.0263,+0.0232]  p~=0.8892  ns
+deberta MLP undersampled vs augmented   [macro_f1] undersampled=0.5802  augmented=0.5819  diff=+0.0018  95%CI=[-0.0224,+0.0251]  p~=0.9020  ns

@@ -1,0 +1,2 @@
+bert BERT original vs augmented   [macro_f1] original=0.6667  augmented=0.6663  diff=-0.0004  95%CI=[-0.0152,+0.0148]  p~=0.9682  ns
+bert BERT naive_duplicate vs augmented   [macro_f1] naive_duplicate=0.6835  augmented=0.6663  diff=-0.0172  95%CI=[-0.0325,-0.0018]  p~=0.0286  **

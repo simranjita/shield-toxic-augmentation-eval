@@ -1,0 +1,40 @@
+======================================================================
+BERT: augmented vs original (macro F1 + the 2 classes that reversed)
+======================================================================
+  [macro_f1] original=0.6667  augmented=0.6663  diff=-0.0004  95%CI=[-0.0152,+0.0148]  p~=0.9682  ns
+  [class=threat] original=0.5714  augmented=0.5446  diff=-0.0269  95%CI=[-0.0885,+0.0338]  p~=0.3942  ns
+  [class=severe_toxic] original=0.5182  augmented=0.5127  diff=-0.0054  95%CI=[-0.0410,+0.0301]  p~=0.7750  ns
+  [class=identity_hate] original=0.5015  augmented=0.5440  diff=+0.0425  95%CI=[-0.0081,+0.0938]  p~=0.1042  ns
+
+======================================================================
+BERT: augmented vs naive_duplicate (is LLM text better than just duplicating real data?)
+======================================================================
+  [macro_f1] naive_duplicate=0.6835  augmented=0.6663  diff=-0.0172  95%CI=[-0.0325,-0.0016]  p~=0.0306  **
+  [class=threat] naive_duplicate=0.5799  augmented=0.5446  diff=-0.0353  95%CI=[-0.1028,+0.0334]  p~=0.3192  ns
+  [class=severe_toxic] naive_duplicate=0.5288  augmented=0.5127  diff=-0.0161  95%CI=[-0.0506,+0.0184]  p~=0.3722  ns
+
+======================================================================
+QWEN+MLP: augmented vs original, vs SMOTE, vs naive_duplicate (macro F1)
+======================================================================
+  [macro_f1] original=0.6346  augmented=0.6279  diff=-0.0067  95%CI=[-0.0280,+0.0139]  p~=0.5372  ns
+  [macro_f1] smote=0.6430  augmented=0.6279  diff=-0.0151  95%CI=[-0.0377,+0.0064]  p~=0.1700  ns
+  [macro_f1] naive_duplicate=0.6241  augmented=0.6279  diff=+0.0038  95%CI=[-0.0202,+0.0283]  p~=0.7442  ns
+
+======================================================================
+QWEN+MLP: augmented vs original/smote/naive_dup on threat and severe_toxic specifically
+======================================================================
+-- threat --
+  [class=threat] original=0.5301  augmented=0.5128  diff=-0.0173  95%CI=[-0.1227,+0.0817]  p~=0.7068  ns
+  [class=threat] smote=0.6420  augmented=0.5128  diff=-0.1292  95%CI=[-0.2291,-0.0456]  p~=0.0020  ***
+  [class=threat] naive_duplicate=0.5753  augmented=0.5128  diff=-0.0625  95%CI=[-0.1775,+0.0492]  p~=0.2758  ns
+-- severe_toxic --
+  [class=severe_toxic] original=0.5016  augmented=0.5137  diff=+0.0121  95%CI=[-0.0348,+0.0560]  p~=0.6050  ns
+  [class=severe_toxic] smote=0.4974  augmented=0.5137  diff=+0.0163  95%CI=[-0.0384,+0.0694]  p~=0.5448  ns
+  [class=severe_toxic] naive_duplicate=0.4706  augmented=0.5137  diff=+0.0431  95%CI=[-0.0109,+0.0971]  p~=0.1186  ns
+
+======================================================================
+DeBERTa+MLP and FastText+MLP: augmented vs original (macro F1) -- both showed augmented < original
+======================================================================
+  [macro_f1] original=0.5977  augmented=0.5819  diff=-0.0157  95%CI=[-0.0394,+0.0075]  p~=0.1926  ns
+  [macro_f1] original=0.6162  augmented=0.5869  diff=-0.0294  95%CI=[-0.0561,-0.0034]  p~=0.0272  **
+  [macro_f1] naive_duplicate=0.6149  augmented=0.5869  diff=-0.0280  95%CI=[-0.0525,-0.0043]  p~=0.0204  **

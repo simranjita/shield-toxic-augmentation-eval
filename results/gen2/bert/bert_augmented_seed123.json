@@ -1,0 +1,97 @@
+{
+  "run_id": "bert_augmented_seed123",
+  "condition": "augmented",
+  "model": "bert-base-uncased",
+  "n_train": 113622,
+  "n_val": 23936,
+  "n_test": 23936,
+  "macro_f1": 0.6699681774816431,
+  "micro_f1": 0.7793103448275862,
+  "thresholds": [
+    0.71,
+    0.8,
+    0.73,
+    0.65,
+    0.73,
+    0.78
+  ],
+  "per_class": {
+    "toxic": {
+      "precision": 0.8433242506811989,
+      "recall": 0.8084457988680888,
+      "f1-score": 0.8255167815070016,
+      "support": 2297.0
+    },
+    "severe_toxic": {
+      "precision": 0.4177545691906005,
+      "recall": 0.6779661016949152,
+      "f1-score": 0.5169628432956381,
+      "support": 236.0
+    },
+    "obscene": {
+      "precision": 0.8141865844255975,
+      "recall": 0.8341232227488151,
+      "f1-score": 0.8240343347639485,
+      "support": 1266.0
+    },
+    "threat": {
+      "precision": 0.44144144144144143,
+      "recall": 0.6363636363636364,
+      "f1-score": 0.5212765957446809,
+      "support": 77.0
+    },
+    "insult": {
+      "precision": 0.7394034536891679,
+      "recall": 0.8051282051282052,
+      "f1-score": 0.7708674304418985,
+      "support": 1170.0
+    },
+    "identity_hate": {
+      "precision": 0.5021459227467812,
+      "recall": 0.6358695652173914,
+      "f1-score": 0.5611510791366906,
+      "support": 184.0
+    },
+    "micro avg": {
+      "precision": 0.7601818181818182,
+      "recall": 0.7994263862332696,
+      "f1-score": 0.7793103448275862,
+      "support": 5230.0
+    },
+    "macro avg": {
+      "precision": 0.6263760370291312,
+      "recall": 0.7329827550035087,
+      "f1-score": 0.6699681774816431,
+      "support": 5230.0
+    },
+    "weighted avg": {
+      "precision": 0.775899422489336,
+      "recall": 0.7994263862332696,
+      "f1-score": 0.7852290126196987,
+      "support": 5230.0
+    },
+    "samples avg": {
+      "precision": 0.0675558433600713,
+      "recall": 0.07392630347593583,
+      "f1-score": 0.06814345831307729,
+      "support": 5230.0
+    }
+  },
+  "config": {
+    "seed": 42,
+    "test_size": 0.15,
+    "val_size": 0.15,
+    "max_len": 128,
+    "batch_size": 32,
+    "epochs": 4,
+    "lr": 2e-05,
+    "focal_gamma": 2.0,
+    "threshold_search_range": [
+      0.1,
+      0.9
+    ],
+    "threshold_search_steps": 81,
+    "non_toxic_keep_ratio": 0.5
+  },
+  "pipeline_version": "v2_fixed_split"
+}

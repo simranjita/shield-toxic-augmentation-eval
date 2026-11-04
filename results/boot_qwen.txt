@@ -1,0 +1,5 @@
+qwen MLP original vs augmented   [macro_f1] original=0.6346  augmented=0.6279  diff=-0.0067  95%CI=[-0.0280,+0.0145]  p~=0.5344  ns
+qwen MLP naive_duplicate vs augmented   [macro_f1] naive_duplicate=0.6241  augmented=0.6279  diff=+0.0038  95%CI=[-0.0208,+0.0275]  p~=0.7434  ns
+qwen MLP smote vs augmented   [macro_f1] smote=0.6430  augmented=0.6279  diff=-0.0151  95%CI=[-0.0380,+0.0061]  p~=0.1684  ns
+qwen MLP undersampled vs augmented   [macro_f1] undersampled=0.6261  augmented=0.6279  diff=+0.0018  95%CI=[-0.0214,+0.0261]  p~=0.8806  ns
+qwen MLP threat smote vs augmented   [class=threat] smote=0.6420  augmented=0.5128  diff=-0.1292  95%CI=[-0.2254,-0.0474]  p~=0.0002  ***

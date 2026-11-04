@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.npz
+*.pt
+*.bin
+*.safetensors
+.env
+*.key
+assets/
+data/Original.csv
+data/Original_trainonly.csv
